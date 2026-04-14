@@ -3,9 +3,8 @@
 A command-line tool that automatically organizes messy folders
 by sorting files into categorized subfolders.
 
-## Demo
+## Before
 
-Before:
 Downloads/
 ├── photo.jpg
 ├── resume.pdf
@@ -13,8 +12,8 @@ Downloads/
 ├── movie.mkv
 └── notes.txt
 
+## After
 
-After running the tool:
 Downloads/
 ├── Images/
 │   └── photo.jpg
@@ -23,8 +22,8 @@ Downloads/
 │   └── notes.txt
 ├── Audio/
 │   └── song.mp3
-└── Videos/
-└── movie.mkv
+├── Videos/
+│   └── movie.mkv
 
 ## Features
 
