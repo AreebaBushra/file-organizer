@@ -2,6 +2,8 @@
 import shutil
 from pathlib import Path
 
+# Define the categories dictionary:
+
 categories = {
     ".jpg": "Images", ".jpeg": "Images", ".png": "Images",
     ".pdf": "Documents", ".docx": "Documents", ".txt": "Documents",
@@ -11,8 +13,9 @@ categories = {
 }
 
 
-
 folder_path = input("Enter the folder path you want to organize: ")
+
+# Check if that folder actually exists on the computer
 
 if not Path(folder_path).exists():
     print("The specified folder does not exist.")
@@ -39,25 +42,6 @@ skipped = 0
 duplicates = 0
 
 # LOOP through every item in all_items one by one:
-
-# for item in all_items:
-#     if item.is_file():
-#         ext = item.suffix.lower()
-#         if ext in dic:
-#             target_folder = Path(folder_path) / dic[ext]
-#             target_folder.mkdir(exist_ok=True)
-#             target_path = target_folder / item.name
-#             if target_path.exists():
-#                 print(f"Duplicate found, skipping: {item.name}")
-#                 duplicates += 1
-#             else:
-#                 item.rename(target_path)
-#                 print(f"Moved: {item.name} → {target_folder.name}/")
-#                 moved += 1
-#         else:
-#             print(f"Unknown file type, skipping: {item.name}")
-#             skipped += 1
-
 
 for item in all_items:
     print(item)
