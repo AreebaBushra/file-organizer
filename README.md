@@ -6,7 +6,8 @@ by sorting files into categorized subfolders.
 ## Before
 
 Downloads/
-```├── photo.jpg
+```
+├── photo.jpg
 ├── resume.pdf
 ├── song.mp3
 ├── movie.mkv
@@ -16,7 +17,8 @@ Downloads/
 ## After
 
 Downloads/
-```├── Images/
+```
+├── Images/
 │   └── photo.jpg
 ├── Documents/
 │   ├── resume.pdf
