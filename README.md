@@ -6,16 +6,17 @@ by sorting files into categorized subfolders.
 ## Before
 
 Downloads/
-├── photo.jpg
+```├── photo.jpg
 ├── resume.pdf
 ├── song.mp3
 ├── movie.mkv
 └── notes.txt
+```
 
 ## After
 
 Downloads/
-├── Images/
+```├── Images/
 │   └── photo.jpg
 ├── Documents/
 │   ├── resume.pdf
@@ -24,7 +25,7 @@ Downloads/
 │   └── song.mp3
 ├── Videos/
 │   └── movie.mkv
-
+```
 ## Features
 
 - Automatically detects file types by extension
