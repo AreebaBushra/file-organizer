@@ -12,10 +12,6 @@ folder by sorting files into subfolders by type.
 - Handles duplicate filenames automatically by renaming them
 - Skips subfolders safely
 
-## Example output
-<img width="1366" height="727" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/a7a88477-4e0a-4842-bb41-b42c3d01f85d" />
-
-
 ## How to run
 
 python file_organizer.py
