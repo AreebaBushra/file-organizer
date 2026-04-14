@@ -22,7 +22,7 @@ Or it auto-detects your Downloads folder.
 ## Libraries used
 - pathlib — for file path handling
 - shutil  — for moving files
-- os      — built in, no install needed
+- os      — built in
 
 ## Concepts practiced
 - File I/O
